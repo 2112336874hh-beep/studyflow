@@ -1,0 +1,11 @@
+{
+  "name": "studyflow",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A student task planner made with vibe coding",
+  "scripts": {
+    "start": "node server.cjs",
+    "check": "node --check dist/app.js && node --check server.cjs"
+  },
+  "engines": { "node": ">=18" }
+}
